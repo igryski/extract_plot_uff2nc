@@ -13,3 +13,6 @@ PNG/
 
 # Folder with data
 satellite_*/
+
+# Temp files
+*.swp
