@@ -1,14 +1,15 @@
-# Build and Release Folders
-#bin/
-#bin-debug/
-#bin-release/
 
-# Other files and folders
-#.uff
+# Scene files (Universal File Format)
 scene.uff
 header_scene.uff
 size_dists_1_scene.uff
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Produced NetCDF files
+extracted/
+
+# Direclty produced image files
+PS/
+PNG/
+
+# Folder with data
+satellite_*/
