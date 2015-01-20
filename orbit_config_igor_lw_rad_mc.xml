@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Earth_Explorer_File>
+  <Explorer_Header>
+    <parameter name="execution_mode" description="USER or CFI orbit" type="STRING">USER</parameter>
+    <parameter name="up_or_down" description="1 => normal 0=> Ground based" type="INTEGER">1</parameter>
+  </Explorer_Header>
+  <Data_Block_CFI/>
+  <Data_Block_USER>
+  <parameter name="along_track_corr_shift_radar" description="SYNC: Radar correction for non-nadir pointing" type="FLOAT" value="0.0" units="km"/>
+  <parameter name="along_track_corr_shift_lidar" description="SYNC: Lidar correction for non-nadir pointing" type="FLOAT" value="0.0" units="km"/>
+  <parameter name="assummed_off_nadir_angle_radar" description="SYNC: assummed off-nadir angle for radar view" type="FLOAT" value="0.0" units="deg"/>
+  <parameter name="assummed_off_nadir_angle_lidar" description="SYNC: assummed off-nadir angle for lidar view" type="FLOAT" value="0.0" units="deg"/>
+
+  <parameter name="execution_mode" description="USER or CFI orbit" type="STRING" value="USER"/>
+  <parameter name="azimuth_sun" description="USER: solar azimuth" type="FLOAT" ndims="2" dims="1,2" value="0.0, 0.0" units="deg"/>
+  <parameter name="elevation_sun" description="USER: solar elevation" type="FLOAT" ndims="2" dims="1,2" value="45.0, 45.0" units="deg"/>
+  <parameter name="azimuth_view" description="USER: viewing azimuth" type="FLOAT" ndims="2" dims="1,2" value="0.0, 0.0" units="deg"/>
+  <parameter name="elevation_view" description="USER: viewing elevation" type="FLOAT" ndims="2" dims="1,2" value="90.0,90.0" units="deg"/>
+  <parameter name="height" description="USER: ground elevation" type="FLOAT" ndims="2" dims="1,2" value="0.0, 0.0" units="m"/>
+  <parameter name="start_point" description="USER: first scene(x,y)" type="FLOAT" ndims="2" dims="1,2" value="0.0, 12800.0" units="m"/>
+  <parameter name="end_point" description="USER: last scene(x,y)" type="FLOAT" ndims="2" dims="1,2" value="25625.0, 12800.0" units="m"/>
+  <parameter name="v_orbit_along" description="USER: orbital velocity along track" type="FLOAT" ndims="2" dims="1,2" value="6.982, 6.982" units="km/s"/>
+  <parameter name="v_orbit_z" description="USER: orbital velocity along Z" type="FLOAT" ndims="2" dims="1,2" value="0.0, 0.0" units="km/s"/>
+  <parameter name="orbit_altitude" description="USER: spacecraft altitude wrt ground" type="FLOAT" ndims="2" dims="1,2" value="450.0, 450.0" units="km"/>
+  <parameter name="offset_radar" description="USER: alongtrack, crosstrack offset at ground" type="FLOAT" ndims="2" dims="1,2" value="0.0, 0.0" units="m"/>
+  <parameter name="offset_lidar" description="USER: alongtrack, crosstrack offset at ground" type="FLOAT" ndims="2" dims="1,2" value="0.0, 0.0" units="m"/>
+  <parameter name="offset_bbr" description="USER: alongtrack, crosstrack offset at ground" type="FLOAT"  ndims="2" dims="1,2" value="0.0, 0.0" units="m"/>
+  <parameter name="offset_msi" description="USER: alongtrack, crosstrack offset at ground" type="FLOAT"  ndims="2" dims="1,2" value="0.0, 0.0" units="m"/>
+
+  <parameter name="date" description="CFI: UTC first-guess time [YYYYMMDD]" type="STRING" value="20070823"/>
+  <parameter name="timeANX" description="CFI: UTC crossing ascending node [HHMM]" type="STRING" value="1400"/>
+  <parameter name="geoANX" description="CFI: geocentric longitude ANX" type="FLOAT" value="90" units="deg"/>
+  <parameter name="inclination" description="CFI: orbital inclination respect equator" type="FLOAT" value="97.23" units="deg"/>
+  <parameter name="period" description="CFI: orbital period" type="FLOAT" value="5615.094" units="s"/>
+  <parameter name="repeatCycle" description="CFI: overpass repetition" type="INTEGER" value="31" units="days"/>
+  <parameter name="refraction" description="CFI: switch for refraction" type="STRING" value="off"/>
+  <parameter name="yaw_steering" description="CFI: switch for yaw steering" type="STRING" value="on"/>
+  <parameter name="dem_switch" description="CFI: switch for using DEM or WGS84 reference" type="STRING" value="off"/>
+  <parameter name="dem_data" description="CFI: config file for the Digital Elevation Model (GETASSE30)" type="STRING" value="../aux/dem.xml"/>
+  <parameter name="iers_data" description="CFI: file with time correlations (bulletin)" type="STRING" value="../aux/input_iers_b.dat"/>
+  <parameter name="pitch_mispointing" description="CFI: pitch error in AOCS mode at ARF" type="FLOAT" value="0.01" units="deg"/>
+  <parameter name="roll_mispointing" description="CFI: roll error in AOCS mode at ARF" type="FLOAT" value="0.02" units="deg"/>
+  <parameter name="yaw_mispointing" description="CFI: roll error in AOCS mode at ARF" type="FLOAT" value="0.03" units="deg"/>
+
+  <parameter name="radar_azimuth" description="CFI: azimuth at ARF" type="FLOAT" value="1.0" units="deg"/>
+  <parameter name="radar_elevation" description="CFI: elevation at ARF" type="FLOAT" value="89.0" units="deg"/>
+  <parameter name="lidar_azimuth" description="CFI: azimuth at ARF" type="FLOAT" value="0.0" units="deg"/>
+  <parameter name="lidar_elevation" description="CFI: elevation at ARF" type="FLOAT" value="88.0" units="deg"/>
+  <parameter name="bbr_azimuth_forward" description="CFI: azimuth at ARF" type="FLOAT" value="0.0" units="deg"/>
+  <parameter name="bbr_elevation_forward" description="CFI: elevation at ARF" type="FLOAT" value="40.0" units="deg"/>
+  <parameter name="bbr_azimuth_central" description="CFI: azimuth at ARF" type="FLOAT" value="0.0" units="deg"/>
+  <parameter name="bbr_elevation_central" description="CFI: elevation at ARF" type="FLOAT" value="90.0" units="deg"/>
+  <parameter name="bbr_azimuth_rear" description="CFI: azimuth at ARF" type="FLOAT" value="180.0" units="deg"/>
+  <parameter name="bbr_elevation_rear" description="CFI: elevation at ARF" type="FLOAT" value="40.0" units="deg"/>
+  <parameter name="msi_leftmost_azimuth" description="CFI: leftmost azimuth looking alongtrack" type="FLOAT" value="280.0.0" units="deg"/>
+  <parameter name="msi_leftmost_elevation" description="CFI: leftmost elevation looking alongtrack" type="FLOAT" value="45.0" units="deg"/>
+  <parameter name="msi_central_azimuth" description="CFI: central azimuth looking alongtrack" type="FLOAT" value="0.0" units="deg"/>
+  <parameter name="msi_central_elevation" description="CFI: central elevation looking alongtrack" type="FLOAT" value="88.0" units="deg"/>
+  <parameter name="msi_rightmost_azimuth" description="CFI: rightmost azimuth looking alongtrack" type="FLOAT" value="10.0" units="deg"/>
+  <parameter name="msi_rightmost_elevation" description="CFI: rightmost elevation looking alongtrack" type="FLOAT" value="45.0" units="deg"/>
+
+  <parameter name="link_latitude" description="CFI: latitude corresponding to (Xcenter,Ycenter)" type="FLOAT" value="30.0" units="deg"/>
+  <parameter name="link_distance" description="CFI: distance (radius) from (Xcenter,Ycenter)" type="FLOAT" value="3.500" units="km"/>
+  <parameter name="scene_rotation" description="CFI: scene rotation ccw from X towards Y [0:360]" type="FLOAT" value="45.0" units="deg"/>
+  <parameter name="scene_x_offset" description="CFI: offset for new Xcenter after rotation" type="FLOAT" value="0.500" units="km"/>
+  <parameter name="scene_y_offset" description="CFI: offset for new Ycenter after rotation" type="FLOAT" value="0.502" units="km"/>
+  <parameter name="propagation_step" description="CFI: time step for orbital propagation (hence, scene sampling)" type="FLOAT" value="0.5" units="s"/>
+
+</parameters>
+</ecsim_orbit_config>

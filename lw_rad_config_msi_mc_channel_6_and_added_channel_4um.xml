@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<!-- LW_rad configuration file MSI Monte-Carlo Version-->
+
+<lw_rad_config version='1.0'>
+   <data_files>
+    <parameters>
+      <parameter name="surfile1"        description="surface BRDF info file name"    value="'models/aux/surface_files/RPV_parameters.txt'"   type="FILE" units="" />
+      <parameter name="band_info_file"  description="name of band information file"   value="'models/aux/channel_definitions/band_info_BB_igor_added_channel_4um.xml'"   type="FILE" units="" />
+    </parameters>
+   </data_files>
+   <mode>
+     <parameters>
+     <parameter name="mc_or_ica"        description="0 = MC : 1 = ICA(DISORT)"       value="0"                      type="INTEGER"    units="" />
+     </parameters>
+   </mode>
+   <ica>
+     <parameters>
+     <parameter name="Max_num_leg_poly" description="Number of legendre polynomials for PF" value="1600" type="INTEGER"    units="" />
+     <parameter name="NSTR" description="number of streams to use in DISORT 4 for fluxes 32 or more for Radiances" value="32" type="INTEGER"    units="" />
+     <parameter name="delta_clip_ang" description="Phase function clipping angle (negitive to disable)" value="-0.75" type="FLOAT"    units="Deg." />
+     <parameter name="CORINT" description="Set to zero to disable CORINT" value="0" type="INTEGER"    units="-" />
+     </parameters>
+   </ica>
+   <mc_convergence>
+    <parameters>
+      <parameter name="N_PHOTONS_PER_COLUMN"  description="Number of photons per columns"       value="5000"   type="INTEGER"   units="" />
+      <parameter name="N_ROUNDS"              description="Maximum number of rounds"            value="25"  type="INTEGER"   units="" />
+      <parameter name="radiance_conv"  description="radiance convergence info (clip_rad,tol_rad)" type="FLOAT" units="km" ndims="1" dims="2" value="0.005, 0.001" />
+      <parameter name="flux_conv"      description="flux convergence info (clip_flux,tol_flux)"   type="FLOAT" units="km" ndims="1" dims="2" value="0.005, 0.001" />
+      <parameter name="MIE_SCATS"      description="read number of mie_scatters before switching to HG"  value="200"    type="INTEGER"   units="" />
+      <parameter name="seed"           description="Seed for random numbers (-1: use time + date) "   value="-1"     type="INTEGER" units="unitless" />
+    </parameters>
+   </mc_convergence>
+    <view_parameters>
+    <parameters>
+      <parameter name="swath_width"    description="Swath Width in km (or left witdth, right width)"     type="FLOAT" units="km" ndims="1" dims="1" value="25.6" />
+      <parameter name="out_res"         description="Output resolution lt 0 uses UFF res." value="0.1"    type="FLOAT" units="km" />
+      <parameter name="zenith_angles"   description="Zenith viewing angles"  type="FLOAT" units="degrees" ndims="1" dims="1" value="180.0" />
+      <parameter name="instrument"     description="msi, bbr, msi_local or bbr_local" value="msi" type='STRING' units='-'/> 
+   </parameters>
+   </view_parameters>
+   <operational_mode>
+    <parameters>
+       <parameter name="comp_flux"      description="Type of calculation (0) Radiance (1) Net Vertical Flux (2) Up (3) Down (4) 3-D Flux divergence!" value="0"  type="INTEGER"   units="" />   
+      <parameter name="flux_alts"       description="altitudes for flux computations [km] (-1.0 is sensor_alt, -100.0 is all altitudes)"  type="FLOAT" units="km" ndims="1" dims="4" value="-100.0 , 20.0, 100.0, -1.0" />
+   </parameters>
+   </operational_mode>
+   <band_information>
+    <parameters>
+       <parameter name="bands" description="bands" type="string"  ndims="1" dims="2" value="LW_1 LW_61 "  units="" />
+       <parameter name="spectral_response_files" description="spectral response files for bands" ndims="1" dims="2" value="'null','null'" type="FILE" units="-" />
+<!--
+       <parameter name="bands" description="bands" type="string"  ndims="1" dims="4" value="MSI_5_8.85_um MSI_6_10.85_um MSI_7_11.85_um LW_4.0_400.0_um "  units="-" />    
+-->
+    </parameters>
+   </band_information>
+</lw_rad_config>

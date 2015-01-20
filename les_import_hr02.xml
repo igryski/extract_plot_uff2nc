@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<scene_creator_inp>
+<general>
+<parameters>
+<parameter description="Unique identifier of the scene" name="identifier" type="STRING" units="-" value="les_import_hr02"/>
+<parameter description="General description of the scene" name="description" type="STRING" units="-" value=""/>
+<parameter description="Scene's author" name="author" type="STRING" units="-" value="IS"/>
+</parameters>
+</general>
+<scene_dimensions>
+<parameters>
+<parameter description="X Extent of scene" name="x_extent" type="FLOAT" units="km" value="25.6"/>
+<parameter description="Y Extent of scene" name="y_extent" type="FLOAT" units="km" value="25.6"/>
+<parameter description="Z Extent of scene" name="z_extent" type="FLOAT" units="km" value="100.0"/>
+</parameters>
+</scene_dimensions>
+<horizontal_resolution>
+<parameters>
+<parameter description="Horizontal resolution" name="hor_resolution" type="FLOAT" units="km" value="0.1"/>
+</parameters>
+</horizontal_resolution>
+<vertical_resolution>
+<parameters>
+<parameter description="Number of different resolution intervals" name="n_resolutions" type="INTEGER" units="-" value="5"/>
+</parameters>
+<resolution>
+<parameters>
+<parameter description="Top of this vertical domain" name="top" type="FLOAT" units="km" value="0.5"/>
+<parameter description="Resolution of this domain" name="step" type="FLOAT" units="km" value="0.1"/>
+</parameters>
+</resolution>
+<resolution>
+<parameters>
+<parameter description="Top of this vertical domain" name="top" type="FLOAT" units="km" value="2.0"/>
+<parameter description="Resolution of this domain" name="step" type="FLOAT" units="km" value="0.025"/>
+</parameters>
+</resolution>
+<resolution>
+<parameters>
+<parameter description="Top of this vertical domain" name="top" type="FLOAT" units="km" value="10.0"/>
+<parameter description="Resolution of this domain" name="step" type="FLOAT" units="km" value="2.0"/>
+</parameters>
+</resolution>
+<resolution>
+<parameters>
+<parameter description="Top of this vertical domain" name="top" type="FLOAT" units="km" value="20.0"/>
+<parameter description="Resolution of this domain" name="step" type="FLOAT" units="km" value="5.0"/>
+</parameters>
+</resolution>
+<resolution>
+<parameters>
+<parameter description="Top of this vertical domain" name="top" type="FLOAT" units="km" value="100.0"/>
+<parameter description="Resolution of this domain" name="step" type="FLOAT" units="km" value="20.0"/>
+</parameters>
+</resolution>
+</vertical_resolution>
+<atmos_env_data>
+<parameters>
+<parameter description="File containing t,p,wv,o3 and v data" name="atmos_t_p_wv_o3_v_file" type="FILE" units="-" value="Mid-latitude_summer.xml"/>
+<parameter description="CO2 volume mixing ratio" name="co2_mixing_ratio" type="FLOAT" units="ppm" value="391.0"/>
+<parameter description="scale H2O in above file by this factor" name="h2o_scale_factor" type="FLOAT" units="-" value="1.0"/>
+<parameter description="scale O3 in above file by this factor" name="o3_scale_factor" type="FLOAT" units="-" value="1.0"/>
+</parameters>
+<extra_gasses>
+<parameters>
+<parameter description="Number of gasses beyond N2,O2,H2O,O3,CO2" name="n_extra_gasses" type="INTEGER" units="-" value="0"/>
+</parameters>
+</extra_gasses>
+</atmos_env_data>
+<surface_properties>
+<parameters>
+<parameter description="Default surface type number" name="default_surf_type" type="INTEGER" units="-" value="-3"/>
+<parameter description="Lambertian surface Albedo" name="default_albedo" type="FLOAT" units="-" value="0.20"/>
+<parameter description="Number of surface regions (not counting default)" name="n_surface_regions" type="INTEGER" units="-" value="0"/>
+</parameters>
+</surface_properties>
+<cloud_and_aerosol_information>
+<parameters>
+<parameter description="Number of cloud or aerosol regions" name="num_scatt_regions" type="INTEGER" units="-" value="1"/>
+</parameters>
+<scattering_region>
+<parameters>
+<parameter description="Scattering type for this region" name="scattering_type" type="STRING" units="-" value="water.list.xml"/>
+<parameter description="Valid types are fractal, normal, global, read_from_file or read_from_file_global" name="region_type" type="STRING" units="-" value="read_from_file"/>
+<parameter description="Bottom of layer" name="z1" type="FLOAT" units="km" value="0.0"/>
+<parameter description="Top of layer" name="z2" type="FLOAT" units="km" value="2.8"/>
+<parameter description="Name of file to read size dist info from" name="size_dist_file" type="FILE" units="-" value="fielddump_hr02_N_eq_100.dat"/>
+</parameters>
+</scattering_region>
+</cloud_and_aerosol_information>
+</scene_creator_inp>

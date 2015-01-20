@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<!-- Sample uff adjust file -->
+
+
+
+<uff_adjust>
+<parameters>
+<!--  <parameter name="override_surface_type" description="override scene surface type..all surfaces set to this type if present" value="2" type="INTEGER" units="-" /> -->
+<!--  <parameter name="override_albedo" description="override albedo..if present all surfaces set to -1..overrides override_surface_type" value="0.2" type="FLOAT" units="-" /> -->
+<!--  <parameter name="real_surface_map" description="real surface map to use..overrides other surface options if present" value="/aux/surface_files/surface_type_lores.nc" type="FILE" units="-" /> -->
+<!--  <parameter name="override_surface_wind" description="override surface wind..if present surface wind is set to this value" value="1.0" type="FLOAT" units="ms-1" /> -->
+<!--  <parameter name="scatt_types_to_adjust" description="Names(vector) of scattering types to adjust" value="'water' 'Col_hess_scatt_tilt_30'" type="STRING" units="-" /> -->
+<!--  <parameter name="scatt_adjust_factors" description="Adjust(vector) factors" value="1.0 1.0" type="FLOAT" units="-" /> -->
+<!--  <parameter name="gasses_to_adjust" description="Names(vector) of gasses to adjust" value="'O3' 'CO2'" type="STRING" units="-" /> -->
+<!--  <parameter name="gass_adjust_factors" description="Adjust(vector) factors" value="1.0 1.0" type="FLOAT" units="-" /> -->
+</parameters>
+</uff_adjust>

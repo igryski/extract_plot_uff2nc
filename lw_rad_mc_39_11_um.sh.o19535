@@ -1,0 +1,468 @@
+  
+--------------------------------------------------------------------------------
+------------setting configuration for running on Cirrus C1  machine  -----------
+  
+les_hr02_100m_mc_39_and_11um_ch_lw_25_6km_NSTR32_5kphtns_solelev45_25rounds
+ -------------------------------------------------------------------
+ Scene:  les import hr02 
+ -------------------------------------------------------------------
+--------------------------------------------------------------------------------
+------- setting configuration input files for Satellite parameters --------
+  
+---- run lw_rad in mc mode -------
+Info     |  Using   16 thread(s)
+Info     |  Using Config file : /home/igor/v1.6/sessions/lw_rad_mc.02//lw_rad_config_msi_mc_channel_6_and_added_channel_4um.xml
+Info     |  Using Orbit file : /home/igor/v1.6/sessions/lw_rad_mc.02//orbit_config_igor_lw_rad_mc.xml
+Info     |  Using Uff file : /home/igor/v1.6/sessions/lw_rad_mc.02//header_scene.uff
+Info     |  Using Uff adjust file : /home/igor/v1.6/sessions/lw_rad_mc.02//uff_adjust.xml
+Info     |  Output file : /home/igor/v1.6/sessions/lw_rad_mc.02//satellite_les_hr02_100m_mc_39_and_11um_ch_lw_25_6km_NSTR32_5kphtns_solelev45_25rounds/lw_output_mc_39_and_11um_as_LW_1_and_LW_61um.nc
+Info     |  Reading the data file:/home/igor/v1.6/sessions/lw_rad_mc.02//lw_rad_config_msi_mc_channel_6_and_added_channel_4um.xml
+Warning  |  ratio_swath_to_scene_res was not found at the current level in the xml file
+Warning  |  ratio_swath_to_scene_res not present in xml file...setting to 1.0
+Info     |  Will use viewing zenith angles from orbit file (if a cfi orbit file is being used)
+Warning  |  buffer was not found at the current level in the xml file
+Warning  |  Buffer not present in MC block. Setting to 0.0
+Info     |  Seed = 750
+Info     |  Reading the data file:/home/igor/v1.6/sessions/lw_rad_mc.02//uff_adjust.xml
+Warning  |  override_surface_type was not found at the current level in the xml file
+Info     |  override_surface_type not present in adjust file
+Warning  |  override_albedo was not found at the current level in the xml file
+Info     |  override_override_albedo not present in adjust file
+Warning  |  real_surface_map was not found at the current level in the xml file
+Info     |  real_surface_map not present in adjust file
+Warning  |  override_surface_wind was not found at the current level in the xml file
+Info     |  override_surface_wind not present in adjust file
+Warning  |  scatt_types_to_adjust was not found at the current level in the xml file
+Warning  |  gasses_to_adjust was not found at the current level in the xml file
+Info     |  Reading header information from UFF file: /home/igor/v1.6/sessions/lw_rad_mc.02//header_scene.uff
+Info     |  Reading the data file:/home/igor/v1.6/sessions/lw_rad_mc.02//orbit_config_igor_lw_rad_mc.xml
+Info     |  Reading the data file:/home/igor/v1.6/sessions/lw_rad_mc.02//orbit_config_igor_lw_rad_mc.xml
+Info     |  Reading scattering data from: /home/igor/v1.6//models/aux/scattering_libraries/water.list.xml
+Info     |  Reading the data file: /home/igor/v1.6/models/aux/channel_definitions/band_info_BB_igor_added_channel_4um.xml
+Info     |  Info for band LW_1 is present
+Info     |  Info for band LW_61 is present
+Info     |  Reading UFF file: /home/igor/v1.6/sessions/lw_rad_mc.02//header_scene.uff
+Info     |  Info for band LW_1 is present
+Info     |  Requested wavelength not in list forMIE_WATER Using      4.0500002
+Info     |  Reading /home/igor/v1.6//models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_04p050.dat
+Info     |  Reading /home/igor/v1.6//models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_04p050.dat
+Info     |  Trial =           1  Max           25
+Info     |  Wavelength=       4.0799699
+Progress |  1 of   675
+Progress |  2 of   675
+Progress |  3 of   675
+Progress |  4 of   675
+Progress |  5 of   675
+Progress |  6 of   675
+Progress |  7 of   675
+Progress |  8 of   675
+Progress |  9 of   675
+Progress |  10 of   675
+Progress |  11 of   675
+Progress |  12 of   675
+Progress |  13 of   675
+Progress |  14 of   675
+Progress |  15 of   675
+Info     |  Trial =           2  Max           25
+Info     |  Wavelength=       4.0799699
+Progress |  16 of   675
+Progress |  17 of   675
+Progress |  18 of   675
+Progress |  19 of   675
+Progress |  20 of   675
+Progress |  21 of   675
+Progress |  22 of   675
+Progress |  23 of   675
+Progress |  24 of   675
+Progress |  25 of   675
+Progress |  26 of   675
+Progress |  27 of   675
+Progress |  28 of   675
+Progress |  29 of   675
+Progress |  30 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0000000  , Goal=        0.0010000
+Info     |  Info for band LW_61 is present
+Info     |  Requested wavelength not in list forMIE_WATER Using     11.0000000
+Info     |  Reading /home/igor/v1.6//models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_11p000.dat
+Info     |  Reading /home/igor/v1.6//models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_11p000.dat
+Info     |  Trial =           1  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  376 of   675
+Progress |  377 of   675
+Progress |  378 of   675
+Progress |  379 of   675
+Progress |  380 of   675
+Progress |  381 of   675
+Progress |  382 of   675
+Progress |  383 of   675
+Progress |  384 of   675
+Progress |  385 of   675
+Progress |  386 of   675
+Progress |  387 of   675
+Info     |  Trial =           2  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  388 of   675
+Progress |  389 of   675
+Progress |  390 of   675
+Progress |  391 of   675
+Progress |  392 of   675
+Progress |  393 of   675
+Progress |  394 of   675
+Progress |  395 of   675
+Progress |  396 of   675
+Progress |  397 of   675
+Progress |  398 of   675
+Progress |  399 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0034741  , Goal=        0.0010000
+Info     |  Trial =           3  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  400 of   675
+Progress |  401 of   675
+Progress |  402 of   675
+Progress |  403 of   675
+Progress |  404 of   675
+Progress |  405 of   675
+Progress |  406 of   675
+Progress |  407 of   675
+Progress |  408 of   675
+Progress |  409 of   675
+Progress |  410 of   675
+Progress |  411 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0031445  , Goal=        0.0010000
+Info     |  Trial =           4  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  412 of   675
+Progress |  413 of   675
+Progress |  414 of   675
+Progress |  415 of   675
+Progress |  416 of   675
+Progress |  417 of   675
+Progress |  418 of   675
+Progress |  419 of   675
+Progress |  420 of   675
+Progress |  421 of   675
+Progress |  422 of   675
+Progress |  423 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0028374  , Goal=        0.0010000
+Info     |  Trial =           5  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  424 of   675
+Progress |  425 of   675
+Progress |  426 of   675
+Progress |  427 of   675
+Progress |  428 of   675
+Progress |  429 of   675
+Progress |  430 of   675
+Progress |  431 of   675
+Progress |  432 of   675
+Progress |  433 of   675
+Progress |  434 of   675
+Progress |  435 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0025853  , Goal=        0.0010000
+Info     |  Trial =           6  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  436 of   675
+Progress |  437 of   675
+Progress |  438 of   675
+Progress |  439 of   675
+Progress |  440 of   675
+Progress |  441 of   675
+Progress |  442 of   675
+Progress |  443 of   675
+Progress |  444 of   675
+Progress |  445 of   675
+Progress |  446 of   675
+Progress |  447 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0023889  , Goal=        0.0010000
+Info     |  Trial =           7  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  448 of   675
+Progress |  449 of   675
+Progress |  450 of   675
+Progress |  451 of   675
+Progress |  452 of   675
+Progress |  453 of   675
+Progress |  454 of   675
+Progress |  455 of   675
+Progress |  456 of   675
+Progress |  457 of   675
+Progress |  458 of   675
+Progress |  459 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0022288  , Goal=        0.0010000
+Info     |  Trial =           8  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  460 of   675
+Progress |  461 of   675
+Progress |  462 of   675
+Progress |  463 of   675
+Progress |  464 of   675
+Progress |  465 of   675
+Progress |  466 of   675
+Progress |  467 of   675
+Progress |  468 of   675
+Progress |  469 of   675
+Progress |  470 of   675
+Progress |  471 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0020966  , Goal=        0.0010000
+Info     |  Trial =           9  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  472 of   675
+Progress |  473 of   675
+Progress |  474 of   675
+Progress |  475 of   675
+Progress |  476 of   675
+Progress |  477 of   675
+Progress |  478 of   675
+Progress |  479 of   675
+Progress |  480 of   675
+Progress |  481 of   675
+Progress |  482 of   675
+Progress |  483 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0019847  , Goal=        0.0010000
+Info     |  Trial =          10  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  484 of   675
+Progress |  485 of   675
+Progress |  486 of   675
+Progress |  487 of   675
+Progress |  488 of   675
+Progress |  489 of   675
+Progress |  490 of   675
+Progress |  491 of   675
+Progress |  492 of   675
+Progress |  493 of   675
+Progress |  494 of   675
+Progress |  495 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0018894  , Goal=        0.0010000
+Info     |  Trial =          11  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  496 of   675
+Progress |  497 of   675
+Progress |  498 of   675
+Progress |  499 of   675
+Progress |  500 of   675
+Progress |  501 of   675
+Progress |  502 of   675
+Progress |  503 of   675
+Progress |  504 of   675
+Progress |  505 of   675
+Progress |  506 of   675
+Progress |  507 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0018064  , Goal=        0.0010000
+Info     |  Trial =          12  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  508 of   675
+Progress |  509 of   675
+Progress |  510 of   675
+Progress |  511 of   675
+Progress |  512 of   675
+Progress |  513 of   675
+Progress |  514 of   675
+Progress |  515 of   675
+Progress |  516 of   675
+Progress |  517 of   675
+Progress |  518 of   675
+Progress |  519 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0017338  , Goal=        0.0010000
+Info     |  Trial =          13  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  520 of   675
+Progress |  521 of   675
+Progress |  522 of   675
+Progress |  523 of   675
+Progress |  524 of   675
+Progress |  525 of   675
+Progress |  526 of   675
+Progress |  527 of   675
+Progress |  528 of   675
+Progress |  529 of   675
+Progress |  530 of   675
+Progress |  531 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0016693  , Goal=        0.0010000
+Info     |  Trial =          14  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  532 of   675
+Progress |  533 of   675
+Progress |  534 of   675
+Progress |  535 of   675
+Progress |  536 of   675
+Progress |  537 of   675
+Progress |  538 of   675
+Progress |  539 of   675
+Progress |  540 of   675
+Progress |  541 of   675
+Progress |  542 of   675
+Progress |  543 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0016119  , Goal=        0.0010000
+Info     |  Trial =          15  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  544 of   675
+Progress |  545 of   675
+Progress |  546 of   675
+Progress |  547 of   675
+Progress |  548 of   675
+Progress |  549 of   675
+Progress |  550 of   675
+Progress |  551 of   675
+Progress |  552 of   675
+Progress |  553 of   675
+Progress |  554 of   675
+Progress |  555 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0015589  , Goal=        0.0010000
+Info     |  Trial =          16  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  556 of   675
+Progress |  557 of   675
+Progress |  558 of   675
+Progress |  559 of   675
+Progress |  560 of   675
+Progress |  561 of   675
+Progress |  562 of   675
+Progress |  563 of   675
+Progress |  564 of   675
+Progress |  565 of   675
+Progress |  566 of   675
+Progress |  567 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0015112  , Goal=        0.0010000
+Info     |  Trial =          17  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  568 of   675
+Progress |  569 of   675
+Progress |  570 of   675
+Progress |  571 of   675
+Progress |  572 of   675
+Progress |  573 of   675
+Progress |  574 of   675
+Progress |  575 of   675
+Progress |  576 of   675
+Progress |  577 of   675
+Progress |  578 of   675
+Progress |  579 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0014675  , Goal=        0.0010000
+Info     |  Trial =          18  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  580 of   675
+Progress |  581 of   675
+Progress |  582 of   675
+Progress |  583 of   675
+Progress |  584 of   675
+Progress |  585 of   675
+Progress |  586 of   675
+Progress |  587 of   675
+Progress |  588 of   675
+Progress |  589 of   675
+Progress |  590 of   675
+Progress |  591 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0014275  , Goal=        0.0010000
+Info     |  Trial =          19  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  592 of   675
+Progress |  593 of   675
+Progress |  594 of   675
+Progress |  595 of   675
+Progress |  596 of   675
+Progress |  597 of   675
+Progress |  598 of   675
+Progress |  599 of   675
+Progress |  600 of   675
+Progress |  601 of   675
+Progress |  602 of   675
+Progress |  603 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0013908  , Goal=        0.0010000
+Info     |  Trial =          20  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  604 of   675
+Progress |  605 of   675
+Progress |  606 of   675
+Progress |  607 of   675
+Progress |  608 of   675
+Progress |  609 of   675
+Progress |  610 of   675
+Progress |  611 of   675
+Progress |  612 of   675
+Progress |  613 of   675
+Progress |  614 of   675
+Progress |  615 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0013565  , Goal=        0.0010000
+Info     |  Trial =          21  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  616 of   675
+Progress |  617 of   675
+Progress |  618 of   675
+Progress |  619 of   675
+Progress |  620 of   675
+Progress |  621 of   675
+Progress |  622 of   675
+Progress |  623 of   675
+Progress |  624 of   675
+Progress |  625 of   675
+Progress |  626 of   675
+Progress |  627 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0013248  , Goal=        0.0010000
+Info     |  Trial =          22  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  628 of   675
+Progress |  629 of   675
+Progress |  630 of   675
+Progress |  631 of   675
+Progress |  632 of   675
+Progress |  633 of   675
+Progress |  634 of   675
+Progress |  635 of   675
+Progress |  636 of   675
+Progress |  637 of   675
+Progress |  638 of   675
+Progress |  639 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0012947  , Goal=        0.0010000
+Info     |  Trial =          23  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  640 of   675
+Progress |  641 of   675
+Progress |  642 of   675
+Progress |  643 of   675
+Progress |  644 of   675
+Progress |  645 of   675
+Progress |  646 of   675
+Progress |  647 of   675
+Progress |  648 of   675
+Progress |  649 of   675
+Progress |  650 of   675
+Progress |  651 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0012673  , Goal=        0.0010000
+Info     |  Trial =          24  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  652 of   675
+Progress |  653 of   675
+Progress |  654 of   675
+Progress |  655 of   675
+Progress |  656 of   675
+Progress |  657 of   675
+Progress |  658 of   675
+Progress |  659 of   675
+Progress |  660 of   675
+Progress |  661 of   675
+Progress |  662 of   675
+Progress |  663 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0012414  , Goal=        0.0010000
+Info     |  Trial =          25  Max           25
+Info     |  Wavelength=      10.9890003
+Progress |  664 of   675
+Progress |  665 of   675
+Progress |  666 of   675
+Progress |  667 of   675
+Progress |  668 of   675
+Progress |  669 of   675
+Progress |  670 of   675
+Progress |  671 of   675
+Progress |  672 of   675
+Progress |  673 of   675
+Progress |  674 of   675
+Progress |  675 of   675
+Info     |  Avg. Rel. Radiance Error=        0.0012170  , Goal=        0.0010000
+Progress |  675 of   675
+Info     |  LW_rad finished !
+=============================================================================================
+=============================================================================================
+--------- CHECK THE OUTPUT FILES IN /home/igor/v1.6/sessions/lw_rad_mc.02//satellite_les_hr02_100m_mc_39_and_11um_ch_lw_25_6km_NSTR32_5kphtns_solelev45_25rounds  ---------------------------
+---------------------------------------------------------------------------------------------
+-------------------------THE END-------------------------------------------------------------
