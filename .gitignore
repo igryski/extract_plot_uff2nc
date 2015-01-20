@@ -16,3 +16,7 @@ satellite_*/
 
 # Temp files
 *.swp
+
+# Extract & plot script log files from cluster
+lw_rad_mc_39_11_um.sh.*
+plot_all_ecsim.sh.*
