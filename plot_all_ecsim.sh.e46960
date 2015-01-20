@@ -1,0 +1,48 @@
+forrtl: severe (151): allocatable array is already allocated
+Image              PC                Routine            Line        Source             
+extract_quantity   000000000058E47D  Unknown               Unknown  Unknown
+extract_quantity   000000000058CF85  Unknown               Unknown  Unknown
+extract_quantity   000000000053B680  Unknown               Unknown  Unknown
+extract_quantity   00000000004EE40F  Unknown               Unknown  Unknown
+extract_quantity   000000000051F0BB  Unknown               Unknown  Unknown
+extract_quantity   000000000040BA32  Unknown               Unknown  Unknown
+extract_quantity   0000000000405AAC  Unknown               Unknown  Unknown
+extract_quantity   000000000040375C  Unknown               Unknown  Unknown
+libc.so.6          00002B1E3CEEAA15  Unknown               Unknown  Unknown
+extract_quantity   0000000000403659  Unknown               Unknown  Unknown
+forrtl: severe (151): allocatable array is already allocated
+Image              PC                Routine            Line        Source             
+extract_quantity   000000000058E47D  Unknown               Unknown  Unknown
+extract_quantity   000000000058CF85  Unknown               Unknown  Unknown
+extract_quantity   000000000053B680  Unknown               Unknown  Unknown
+extract_quantity   00000000004EE40F  Unknown               Unknown  Unknown
+extract_quantity   000000000051F0BB  Unknown               Unknown  Unknown
+extract_quantity   000000000040BA32  Unknown               Unknown  Unknown
+extract_quantity   0000000000405AAC  Unknown               Unknown  Unknown
+extract_quantity   000000000040375C  Unknown               Unknown  Unknown
+libc.so.6          00002B79101FDA15  Unknown               Unknown  Unknown
+extract_quantity   0000000000403659  Unknown               Unknown  Unknown
+forrtl: severe (151): allocatable array is already allocated
+Image              PC                Routine            Line        Source             
+extract_quantity   000000000058E47D  Unknown               Unknown  Unknown
+extract_quantity   000000000058CF85  Unknown               Unknown  Unknown
+extract_quantity   000000000053B680  Unknown               Unknown  Unknown
+extract_quantity   00000000004EE40F  Unknown               Unknown  Unknown
+extract_quantity   000000000051F0BB  Unknown               Unknown  Unknown
+extract_quantity   000000000040BA32  Unknown               Unknown  Unknown
+extract_quantity   0000000000405AAC  Unknown               Unknown  Unknown
+extract_quantity   000000000040375C  Unknown               Unknown  Unknown
+libc.so.6          00002B9EAA835A15  Unknown               Unknown  Unknown
+extract_quantity   0000000000403659  Unknown               Unknown  Unknown
+forrtl: severe (151): allocatable array is already allocated
+Image              PC                Routine            Line        Source             
+extract_quantity   000000000058E47D  Unknown               Unknown  Unknown
+extract_quantity   000000000058CF85  Unknown               Unknown  Unknown
+extract_quantity   000000000053B680  Unknown               Unknown  Unknown
+extract_quantity   00000000004EE40F  Unknown               Unknown  Unknown
+extract_quantity   000000000051F0BB  Unknown               Unknown  Unknown
+extract_quantity   000000000040BA32  Unknown               Unknown  Unknown
+extract_quantity   0000000000405AAC  Unknown               Unknown  Unknown
+extract_quantity   000000000040375C  Unknown               Unknown  Unknown
+libc.so.6          00002ADB933FAA15  Unknown               Unknown  Unknown
+extract_quantity   0000000000403659  Unknown               Unknown  Unknown

@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Flags to run script on cirrus
-#$ -q rijn     # lek is Edou, rijn is Stephani
+#$ -q lek     # lek is Edou, rijn is Stephani
 #$ -l h_rt=3600
-#$ -pe mpi 8
+#$ -pe mpi 2
 
 mkdir -p $PWD/extracted
 
