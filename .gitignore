@@ -19,4 +19,5 @@ satellite_*/
 
 # Extract & plot script log files from cluster
 lw_rad_mc_39_11_um.sh.*
+lw_rad_mc_1333_1367_um.sh.*
 plot_all_ecsim.sh.*
