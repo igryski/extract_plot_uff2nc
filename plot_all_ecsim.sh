@@ -1,9 +1,13 @@
 #!/bin/bash
 
 # Flags to run script on cirrus
-#$ -q lek     # lek is Edou, rijn is Stephani
+#$ -q rijn     # lek is Edou, rijn is Stephani
+#$ -A igor    # account name
 #$ -l h_rt=3600
 #$ -pe mpi 2
+#$ -o output_error.txt
+#$ -e output_error.txt
+
 
 mkdir -p $PWD/extracted
 
@@ -37,12 +41,15 @@ numb_conc=extracted/numb_conc.nc     # NEW!
 lwc_slice=extracted/lwc_slice.nc
 reff_slice=extracted/reff_slice.nc
 ssa_slice=extracted/ssa_slice.nc
+dsd_slice=extracted/dsd_slice.nc
 
 # Extractables and plottables
 Ext=Extinction
 Lwc=Mass_content
 Reff=R_eff
 Ssa=SS_alb
+DSD=DSD
+
 
 # Extract and plot Extincion in 3d
 extract_quantity_3d $scene $threedExt $x1 $x2 $y1 $y2 $z1 $z2 0.025 13 0
@@ -74,6 +81,9 @@ plot_slice $numb_conc N_0 $x1 $x2 $z1 $z2 1 1 0 numb_conc_slice.ps/vcps
 extract_quantity $scene $ssa_slice $x1 $ycross $x2 $ycross $z1 $z2 0.05 20 0
 plot_slice $ssa_slice $Ssa $x1 $x2 $z1 $z2 0 1e-06 0 ssa_slice.ps/vcps
 
+# plotting a vertical slice of DSD (value=23)
+extract_quantity $scene $dsd_slice $x1 $ycross $x2 $ycross $z1 $z2 0.05 23 0
+plot_slice $dsd_slice $DSD $x1 $x2 $z1 $z2 1 1 0 dsd_slice.ps/vcps
 
 
 #******************************

@@ -1,0 +1,115 @@
+Info     |  =================================================================
+Info     |  The Following scattering types are referenced in the input file
+Info     |  =================================================================
+Info     |  1:/home/igor/v1.6/models/aux/scattering_libraries/water.list.xml
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  ******************FINISHED******************
+Info     |  =================================================================
+Info     |  The Following scattering types are referenced in the input file
+Info     |  =================================================================
+Info     |  1:/home/igor/v1.6/models/aux/scattering_libraries/water.list.xml
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  ******************FINISHED******************
+Info     |  =================================================================
+Info     |  The Following scattering types are referenced in the input file
+Info     |  =================================================================
+Info     |  1:/home/igor/v1.6/models/aux/scattering_libraries/water.list.xml
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  ******************FINISHED******************
+Info     |  =================================================================
+Info     |  The Following scattering types are referenced in the input file
+Info     |  =================================================================
+Info     |  1:/home/igor/v1.6/models/aux/scattering_libraries/water.list.xml
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  ******************FINISHED******************
+Info     |  Minimum and maxumum values found:  0.9500E-03 and   0.1050E-02
+Info     |  =================================================================
+Info     |  The Following scattering types are referenced in the input file
+Info     |  =================================================================
+Info     |  1:/home/igor/v1.6/models/aux/scattering_libraries/water.list.xml
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  ******************FINISHED******************
+Info     |  Minimum and maxumum values found:  0.9500E-03 and   0.1050E-02
+Info     |  =================================================================
+Info     |  The Following scattering types are referenced in the input file
+Info     |  =================================================================
+Info     |  1:/home/igor/v1.6/models/aux/scattering_libraries/water.list.xml
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  ******************FINISHED******************
+Info     |  =================================================================
+Info     |  The Following scattering types are referenced in the input file
+Info     |  =================================================================
+Info     |  1:/home/igor/v1.6/models/aux/scattering_libraries/water.list.xml
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  ******************FINISHED******************
+Info     |  Minimum and maxumum values found:  0.9500E-03 and   0.1050E-02
+Info     |  =================================================================
+Info     |  The Following scattering types are referenced in the input file
+Info     |  =================================================================
+Info     |  1:/home/igor/v1.6/models/aux/scattering_libraries/water.list.xml
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  ******************FINISHED******************
+Info     |  =================================================================
+Info     |  The Following scattering types are referenced in the input file
+Info     |  =================================================================
+Info     |  1:/home/igor/v1.6/models/aux/scattering_libraries/water.list.xml
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  ******************FINISHED******************
+Info     |  =================================================================
+Info     |  The Following scattering types are referenced in the input file
+Info     |  =================================================================
+Info     |  1:/home/igor/v1.6/models/aux/scattering_libraries/water.list.xml
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Requested wavelength not in list forMIE_WATER Using      0.3550000
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t240_00p355.dat
+Info     |  Reading /home/igor/v1.6/models/aux/scattering_libraries/./data_files/cld_water/water_mie_t300_00p355.dat
+Info     |  ******************FINISHED******************
+/home/igor/v1.6/sessions/lw_rad_mc.02_extract_quantity_DSD
+...now converting to PNG /home/igor/v1.6/sessions/lw_rad_mc.02_extract_quantity_DSD/dsd_slice.ps
