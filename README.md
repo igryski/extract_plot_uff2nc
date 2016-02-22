@@ -3,6 +3,6 @@ Bash script extracting requested variables in NC format, and plotting them in Po
 
 There is a version with a loop thorugh all the vertical grid slices, but breaks half way. Soon to be added and fixed.
 
-End of script converts them to PNG at desired resolution/rotation (by Grisha)
+End of script converts them to PNG at specified resolution/rotation (by Grisha)
 
 
